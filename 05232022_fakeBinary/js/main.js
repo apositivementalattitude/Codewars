@@ -1,0 +1,9 @@
+//https://github.com/apositivementalattitude/Codewars.git
+
+// Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
+
+// Note: input will never be an empty string
+
+function fakeBin(x){
+    return x.replace(/[1234]/gi, '0').replace(/[56789]/gi, '1')
+  }
